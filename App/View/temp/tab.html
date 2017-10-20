@@ -1,0 +1,19 @@
+
+<div class="title">
+    <h3>猜你喜欢</h3>
+    <div class="more" ng-click="change()">
+        更多<i class="fa fa-angle-right"></i>
+    </div>
+</div>
+<div class="car clearfix">
+    <dl class="col-xs-6" ng-repeat="da in datas">
+        <dt><img ng-src="{{da.imgsrc}}" alt=""></dt>
+        <dd>
+            <b>{{da.name}}</b>
+            <em>{{da.info}}</em>
+            <span class="yuan">{{da.yuan}}</span>
+            <span class="money">{{da.money}}</span>
+        </dd>
+    </dl>
+
+</div>

@@ -1,0 +1,283 @@
+body {
+  font-size: .12rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  -webkit-flex-direction: column; }
+
+.header {
+  height: .45rem;
+  position: relative; }
+  .header .tab {
+    text-align: center;
+    line-height: .45rem; }
+    .header .tab a {
+      font-size: .18rem;
+      margin: 0 .1rem;
+      color: #9D9D9D; }
+    .header .tab .on {
+      color: #474747;
+      border-bottom: 2px solid #474747;
+      padding-bottom: .08rem; }
+  .header i {
+    position: absolute;
+    top: .1rem;
+    right: .15rem;
+    font-size: .18rem; }
+
+.main {
+  overflow-y: scroll;
+  -webkit-flex: 1;
+  background: #eee; }
+  .main .banner {
+    height: 1.4rem; }
+    .main .banner .swiper-container {
+      width: 100%;
+      height: 100%; }
+      .main .banner .swiper-container .swiper-wrapper {
+        width: 100%;
+        height: 100%; }
+        .main .banner .swiper-container .swiper-wrapper .swiper-slide img {
+          width: 100%;
+          height: 100%; }
+  .main .list1 {
+    background: #fff;
+    display: -webkit-flex;
+    padding: .15rem; }
+    .main .list1 li {
+      -webkit-flex: 1;
+      text-align: center; }
+      .main .list1 li b {
+        width: 40px;
+        height: 40px;
+        border-radius: 40%;
+        display: inline-block; }
+        .main .list1 li b i {
+          text-align: center;
+          line-height: 40px;
+          color: #fff;
+          font-size: .2rem; }
+      .main .list1 li span {
+        display: block;
+        margin-top: .1rem;
+        font-size: .14rem; }
+  .main .maintenance {
+    height: .74rem; }
+    .main .maintenance .imgs img {
+      width: 100%;
+      height: 100%; }
+  .main .owners {
+    background: #fff; }
+    .main .owners h3 {
+      padding: .18rem;
+      font-size: .16rem; }
+    .main .owners .list2 {
+      display: -webkit-flex;
+      -webkit-flex-wrap: wrap; }
+      .main .owners .list2 li {
+        width: 24.7%;
+        height: .84rem;
+        text-align: center;
+        border-top: 1px solid #eee;
+        border-right: 1px solid #eee; }
+        .main .owners .list2 li i {
+          font-size: .3rem;
+          padding: .13rem 0; }
+        .main .owners .list2 li span {
+          display: block;
+          font-size: .14rem; }
+      .main .owners .list2 .bdr0 {
+        border-right: none; }
+  .main .xian {
+    margin-top: .1rem;
+    background: #fff; }
+    .main .xian .title {
+      padding: .18rem .05rem .18rem .18rem;
+      clear: both; }
+      .main .xian .title h3 {
+        font-size: .16rem;
+        float: left; }
+      .main .xian .title .right1 {
+        float: right; }
+        .main .xian .title .right1 span {
+          width: 20px;
+          height: 20px;
+          background: #555;
+          display: inline-block;
+          text-align: center;
+          line-height: 20px;
+          font-size: .14rem;
+          color: #fff;
+          margin: 0 2px;
+          border-radius: 3px; }
+    .main .xian .hot {
+      width: 100%;
+      background: #fff;
+      clear: both;
+      height: 1.7rem;
+      overflow: hidden; }
+      .main .xian .hot .hot-box {
+        width: 200%; }
+        .main .xian .hot .hot-box dl {
+          width: 1.35rem;
+          height: 1.3rem;
+          border: 1px solid #ccc;
+          margin-left: .18rem;
+          margin-top: .18rem;
+          position: relative;
+          float: left; }
+          .main .xian .hot .hot-box dl b {
+            width: 0;
+            height: 0;
+            border: 28px solid #D5006A;
+            border-color: transparent;
+            border-bottom-color: #D5006A;
+            position: absolute;
+            left: -28px;
+            top: -28px;
+            transform: rotate(-45deg); }
+            .main .xian .hot .hot-box dl b span {
+              width: 40px;
+              color: #fff;
+              display: inline-block;
+              margin-left: -14px;
+              margin-top: .1rem; }
+          .main .xian .hot .hot-box dl dt {
+            width: 70%;
+            height: auto;
+            margin-left: 15%;
+            margin-top: 15px; }
+            .main .xian .hot .hot-box dl dt img {
+              width: 100%;
+              height: 100%; }
+          .main .xian .hot .hot-box dl dd h3 {
+            padding-top: .1rem;
+            font-size: .14rem;
+            padding-left: .1rem; }
+          .main .xian .hot .hot-box dl dd em {
+            color: orange;
+            padding-left: .1rem;
+            font-size: .14rem;
+            font-style: normal;
+            padding-top: .05rem;
+            display: inline-block; }
+          .main .xian .hot .hot-box dl dd span {
+            margin-left: .15rem;
+            text-decoration: line-through;
+            color: #B6B6B6; }
+  .main .huo {
+    margin-top: .1rem;
+    background: #fff; }
+    .main .huo .title {
+      padding: .18rem; }
+      .main .huo .title h3 {
+        font-size: .16rem;
+        float: left; }
+      .main .huo .title .more {
+        float: right;
+        color: #9D9D9D;
+        font-size: .16rem; }
+        .main .huo .title .more i {
+          margin-left: .1rem;
+          font-size: .2rem; }
+    .main .huo .huodong {
+      clear: both;
+      padding-top: .18rem;
+      background: #fff;
+      height: auto; }
+      .main .huo .huodong dl {
+        border-top: 1px solid #ccc;
+        border-right: 1px solid #ccc;
+        background: #fff; }
+        .main .huo .huodong dl dd {
+          margin-top: .1rem; }
+          .main .huo .huodong dl dd em {
+            font-size: .15rem;
+            font-style: normal;
+            color: #474747; }
+          .main .huo .huodong dl dd span {
+            display: block;
+            font-size: .14rem;
+            color: #FB5401; }
+        .main .huo .huodong dl dt {
+          width: 100%;
+          height: auto; }
+          .main .huo .huodong dl dt img {
+            width: 100%;
+            height: 100%; }
+      .main .huo .huodong .bdr0 {
+        border-right: 0; }
+  .main .cai {
+    margin-top: .1rem;
+    background: #fff; }
+    .main .cai .title {
+      padding: .18rem; }
+      .main .cai .title h3 {
+        font-size: .16rem;
+        float: left; }
+      .main .cai .title .more {
+        float: right;
+        color: #9D9D9D;
+        font-size: .16rem; }
+        .main .cai .title .more i {
+          margin-left: .1rem;
+          font-size: .2rem; }
+    .main .cai .car {
+      padding-top: .18rem;
+      background: #fff; }
+      .main .cai .car dl {
+        background: #fff;
+        border-top: 1px solid #ccc;
+        border-right: 1px solid #ccc; }
+        .main .cai .car dl dt {
+          width: 100%;
+          height: 100%;
+          margin: 20px 0; }
+          .main .cai .car dl dt img {
+            width: 100%;
+            height: 100%; }
+        .main .cai .car dl dd {
+          padding-bottom: .2rem; }
+          .main .cai .car dl dd b {
+            font-size: .14rem;
+            display: block; }
+          .main .cai .car dl dd em {
+            font-style: normal;
+            margin-top: .13rem;
+            display: block;
+            font-size: .13rem; }
+          .main .cai .car dl dd .yuan {
+            color: orange;
+            font-size: .14rem;
+            margin-top: 0.13rem;
+            display: inline-block; }
+          .main .cai .car dl dd .money {
+            margin-left: .1rem;
+            text-decoration: line-through;
+            color: #E6E6E6; }
+      .main .cai .car .brd0 {
+        border-right: 0; }
+
+.footer {
+  height: .49rem;
+  background: #fbfbfb; }
+  .footer .list3 {
+    display: -webkit-flex; }
+    .footer .list3 li {
+      -webkit-flex: 1;
+      text-align: center; }
+      .footer .list3 li i {
+        font-size: .2rem;
+        margin-top: .1rem; }
+      .footer .list3 li span {
+        display: block;
+        font-size: .12rem;
+        color: #9D9D9D; }
+    .footer .list3 .active {
+      color: #4183FF; }
+      .footer .list3 .active span {
+        color: #4183FF; }
+
+/*# sourceMappingURL=style.css.map */
